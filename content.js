@@ -1,8 +1,7 @@
 chrome.runtime.onMessage.addListener(function (request) {
-    replaceSelectedText(window.getSelection(), request.text);
+    replce(window.getSelection(), request.text);
 });
 
-function replaceSelectedText(elem, text) {
-    debugger;
+function replace(elem, text) {
     elem.anchorNode.data = text;
 }
