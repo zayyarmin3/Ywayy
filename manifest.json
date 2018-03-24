@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "Ywayy",
-    "version": "0.1.1",
+    "version": "0.3.1",
     "content_scripts": [
         {
             "matches" : [
@@ -21,10 +21,10 @@
             "background.js"
         ]
     },
-    "icons": {
-        "128" : "icon.png"
-    },
     "browser_action": {
         "default_icon": "icon.png"
+    },
+    "icons": {
+        "128" : "icon.png"
     }
 }
