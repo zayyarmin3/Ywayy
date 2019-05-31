@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "Ywayy",
-    "version": "0.3.1",
+    "version": "0.6",
     "content_scripts": [
         {
             "matches" : [
@@ -12,12 +12,20 @@
             ]
         }
     ],
+    "commands" : {
+        "activate_ywayy": {
+            "suggested_key": {
+              "default": "Ctrl+Y",
+              "mac": "Command+Y"
+            },
+            "description": "Activate Yway"
+        }
+    },
     "permissions": [
         "contextMenus"
     ],
     "background": {
         "scripts": [
-            "rabbit.min.js",
             "background.js"
         ]
     },
