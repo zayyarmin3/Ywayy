@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "Ywayy",
-    "version": "1.0",
+    "version": "1.1",
     "content_scripts": [
         {
             "matches" : [
@@ -15,8 +15,8 @@
     "commands" : {
         "activate_ywayy": {
             "suggested_key": {
-              "default": "Ctrl+Y",
-              "mac": "Command+Y"
+              "default": "Alt+Q",
+              "mac": "Alt+Q"
             },
             "description": "Activate Yway"
         }
